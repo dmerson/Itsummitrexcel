@@ -1,4 +1,5 @@
-# Itsummitrexcel
+# 2017 University of Arizona IT Summit
+
 This is the GIT Hub Repository for the Learn R-Studio from a Working Knowledge of Excel and Up Your Analytics Game workshop at 2017 U of A ITSummit
 
 #Other resources
