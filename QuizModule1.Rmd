@@ -1,0 +1,50 @@
+---
+title: "QuickTourQuiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Quiz Questions for Module 1
+
+https://quizlet.com/236833225/it-summit-2017-r-for-excel-users-module-1-r-studio-basics-flash-cards/
+
+- How do you create a new project?	
+- What is the console?	
+- How do you print a sentence in R?	
+- How do you create a source file in R?	
+- What are the techniques to run a line of code in the R source file view?	
+- What is a package?	
+- What the different ways to install a package in R?	
+- What is a variable?	
+- What two conventions can you use for setting a variable?	
+- Where can you see what variables you have created?	
+- How do you create a list in R?	
+- How do access the first element of a list?	
+- How do access multiple sequential items in a list?	
+- How do access non-sequential items in a list?	
+- What does the [1] mean after you run "print("one thing")?
+```{r}
+print("one thing")
+```
+
+- What is type in programming?	
+- How can you find the type of a variable in R? (2 ways)	
+- What are a few different types in R?	
+- How do you run a demo to show all the various types built into R?	
+- How do you clear all your variables?	
+- How do you load a package?	
+- What things can you do in the R Studio Viewer?	
+- How can use help from the command line?	
+- How do you search help in R?	
+- How do you view your history in R?	
+- What items don't show up in your history?	
+- What are the cheat sheets built into R Studio?	
+- How do you access the Global and Project options?	
+- How do you comment out a line in R?	
+- How do you get and set your working directory?
+ 

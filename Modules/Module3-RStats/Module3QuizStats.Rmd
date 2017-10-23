@@ -1,0 +1,37 @@
+---
+title: "Module 3 Quiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# IT Summit 2017 R for Excel Users -Module 3- R Statistics
+## Module Quiz
+
+- What is the add on for statistics in Excel?	
+- How do you find common datasets built into R?	
+- What is an aggregate functions?	
+- What functions can get your a birdseye view of a dataset?	
+- How do you get an average in R?	
+- What does the apply function do?	
+- What does 1 or 2 mean in the apply function?	
+- What common stats function doesn't have a built in version in R?	
+- How do you find the minimum, maximum, and range of a dataset ?	
+- How you find the variance, standard deviation, and correlation?	
+- How do you find the difference between rows?	
+- How do you sample from a dataset?	
+- How do you run a t-test?	
+- How do you rank data in a list?	
+- How is lapply different from apply?	
+- What does the table function do in R?	
+- How do you create a linear regression with 2 variables?	
+- How do you find the p value for a linear regression?	
+- How do you create a linear regression with multiple variables?	
+- What is a dummy variable?	
+- How do you create a dummy variable?	
+- How do you predict a value from a linear regression?	
+- How do you find the residuals in a linear regression prediction?

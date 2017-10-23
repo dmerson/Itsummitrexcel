@@ -1,0 +1,33 @@
+---
+title: "Module 5 Quiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#IT Summit 2017 R for Excel Users -Module 5- Data
+## Module quiz
+
+- What is dplyr?	
+- What are the advantages of dpylr?	
+- What advantages does dplyr's always returning a tibble allow?	
+- How do you turn a dataframe into a dplyr dataset?	
+- How do you concatenate various operations in dplyr?	
+- What are the single table operations allowed by dplyr?	
+- Why are some types hard to determine?	
+- How do you convert a row to a factor and why would you do it?	
+- What type of group operations does dplyr allow?	
+- How do you combine vectors of the same length into one dataset?	
+- What is dplyr term to look at a summary of a dataset?	
+- What are four types of joins?	
+- What does an inner join do?	
+- What does a left join do?	
+- What does a right join do?	
+- What does a full join do?	
+- What are the ways that dplyr can join two datasets?	
+- What is sqldf?	
+- What are the most common sql keywords?

@@ -1,0 +1,32 @@
+---
+title: "Module 4 Quiz Basic Graphics"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#IT Summit 2017 R for Excel Users -Module 4- Basic R Graphics
+
+## Module Quiz
+- What are two main graphical packages in R?	
+- How do see the various features of the lattice and base graphical packages?	
+- What other programming platform does R graphics resemble?	
+- How do you create a histogram?	
+- How do you label a histogram?	
+- How do you save your histogram to your hard drive?	
+- How do you create a graphic with dataset with two number columns?	
+- What happens if you plot a datset with multiple numeric columns?	
+- How do you see plots from a multiple number dataset one at a time?	
+- How do you create an abline?	
+- What does par do?	
+- How do you create and label a boxplot?	
+- How do you look at the graphical data in a boxplot but only the numbers?	
+- What is a stem and leaf plot and how do you create one?	
+- How do you create a density chart?	
+- How do you create a dotchart?	
+- How do you create a plot with multiple lines plotted?	
+- How do you create a scatter plot?

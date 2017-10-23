@@ -1,0 +1,36 @@
+---
+title: "Module 2 Quiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Module 2 Quiz 
+## IT Summit 2017 R for Excel Users -Module 2- Excel to R Concepts
+
+- What is a vector similar to in R?	
+- How do lists in R differ from lists in Excel?	
+- What are some features of Vectors in R?	
+- How is NULL displayed in R?	
+- What is an R Matrix similar to in Excel?	
+- How does the R row-column differ from Excel?	
+- What is a dataframe in R like in Excel?	
+- How do you select a column name in a dataframe?	
+- How do you import data from Excel in R?	
+- What is a Tibble like?	
+- What is a categorical value called in R?	
+- What is Data Provenance?	
+- How can R help Data Provenance?	
+- What type of files can R import?	
+- How do you write a dataset to a file in R?	
+- What are some ways that R allows you to explore a dataset?	
+- How can you subset or filter a dataset in R?	
+- How can you get only the first or last few records of a dataset?	
+- How do you filter and search in View mode?	
+- What is the difference between a function and a sub?	
+- Can an R statement be written on multiple lines?	
+- What is the primary way to program?

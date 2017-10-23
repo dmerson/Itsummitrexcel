@@ -1,0 +1,28 @@
+---
+title: "Module 6 Quiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# IT Summit 2017 R for Excel Users -Module 6- Grammar of Graphics
+## Module 6 Quiz
+
+- What are the components of Grammar of Graphics(GoG)?	
+- What is the central metaphor for GoG?	
+- What are a few statistical transformations that GoG can do?	
+- What is the first term of a GOG plot?	
+- How do you put layers together in GoG?	
+- What does the aes control in GoG?	
+- What are some examples of geometric objects?	
+- What is qplot?	
+- What is a facet?	
+- What is jitter in GoG?	
+- How do you control fonts in GoG?	
+- What type of information does GoG cheat sheet require for you to know about your dataset?	
+- What kind of variables can be used as facets?	
+- What are some examples for facets in University data?

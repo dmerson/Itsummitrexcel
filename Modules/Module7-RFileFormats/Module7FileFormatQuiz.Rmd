@@ -1,0 +1,26 @@
+---
+title: "Module 7 Quiz"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# IT Summit 2017 R for Excel Users -Module 7-R file types
+## Module quiz
+
+- What types of raw file types can R-Studio create?	
+- What file type has two cheat sheets built into R-Studio?	
+- What type of files can be created with R Markdown files?	
+- How do you view an R Markdown file?	
+- What advantages does writing in R Markdown have over raw html?	
+- How do you publish your documents in R?	
+- What does Knitr do?	
+- What is a Shiny application?	
+- What advantage does Shiny applications have over R Markdown?	
+- How is Edward Tufte?	
+- What do you need to create a "Tufte" document?	
+- How do you create R documentation?
