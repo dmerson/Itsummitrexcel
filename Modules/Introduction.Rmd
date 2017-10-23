@@ -63,6 +63,22 @@ This based on learning techniques from https://www.coursera.org/learn/learning-h
 ##Quiz is dipstick, not measuring stick
 
 
+##The Modules
+- We might skip around due to class interest
+- Basic Tour of R-Studio
+- Excel and Programming Basics
+- R Statistics
+- Data Basics
+- Basic R Graphics
+- Grammar of Graphics
+- R File Formats and Publishing
+
+##Book for Excel and Stats-more in depth
+
+http://proquest.safaribooksonline.com.ezproxy4.library.arizona.edu/book/programming/r/9780134571881 
+
+![Excel Book](../Images/ExcelRBook.png)
+
 Entering the code by hand is the best way to Grok the material. 
 
 However,you can copy (most of) the code from the GitHub site.

@@ -1,0 +1,83 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+# Who am I
+
+##   don-E Merson
+
+- Scholarship Universe- Programmer/Architect
+
+- Masters Student –School of Information
+- Ph.D. (Accepted but not yet)
+
+##Interests
+
+- Excel
+- Data Mining
+- Statistics
+- Machine Learning
+
+# Who are you
+Let's go around the room real quick.
+
+- Your name
+- Where on campus?
+- What do you do?
+- Experience in Excel
+- Experience in Programming
+- Experience in R
+- Experience in Statistics
+
+#Materials 
+
+Shared on GitHub
+https://github.com/dmerson/Itsummitrexcel
+
+Power Point is also on Box
+https://arizona.box.com/s/m0shoa7nyapa8fhqfsdbq8262ueqtqm3
+
+#How this class will work
+This based on learning techniques from https://www.coursera.org/learn/learning-how-to-learn
+
+![Coursera](../Images/CourseraCourse.png)
+
+#How modules work
+
+- Quiz on things you don’t know
+- - Primes you for important ideas
+- Opened answered-not graded
+- I talk about what we are going to learn 
+- You should play along as I talk
+- You can skip ahead
+- You take the same quiz again
+- 5 minute break
+
+##Quiz is dipstick, not measuring stick
+
+
+#The Modules
+- We might skip around due to class interest
+- Basic Tour of R-Studio
+- Excel and Programming Basics
+- R Statistics
+- Data Basics
+- Basic R Graphics
+- Grammar of Graphics
+- R File Formats and Publishing
+
+
+
+Entering the code by hand is the best way to Grok the material. 
+
+However,you can copy (most of) the code from the GitHub site. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
