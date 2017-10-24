@@ -1,0 +1,40 @@
+---
+title: "Module 4"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Module 4 Goals
+- Graphical packages for R
+- Main statistical plots
+- How to save images you create
+
+R has lots of graphical packages
+lattice
+ggplot
+Cheat Sheet for ggplot
+It is complicated -> Another module
+We’ll start with lattice
+
+Demo
+Demo (plotlib)
+histogram
+More hist instructions
+Export graphics
+plot
+
+
+Stem and leaf
+abline example
+boxplot
+density
+
+
+
+scatterplot
+

@@ -1,0 +1,67 @@
+---
+title: "Excel to R"
+output: html_notebook
+---
+
+#Module 2 Goals
+- Data Types
+- Vectors
+- Matrixes
+- Lists
+- Tibbles and DataFrames
+- Import and Export Data
+- Data Provenance
+- Viewing Data in R
+- Display columns of DataFrames
+
+Understanding R from Excel
+Vector in Excel
+3 rows in 1 column
+
+
+Type in Excel vs. R
+Ignores text
+In R converts to first value
+Vectors in R
+Allow quick transformations
+
+Can run operations on each item
+Vector operations like multiply
+Different from aggregates like sum
+Summarize into single value (vector of 1)
+na =NULL
+Matrix
+Excel is Column-Row (B2)
+R is row-column[3,2]
+Mo’ Matrix
+Can get rows or columns
+Result is vector
+Tables in Excel =DataFrame in R
+DataFrame$ColumnName
+Import data from Excel
+We now have a tibbles
+(not a whole lot different but better for technical reasons of conversion)
+Factors =categorical variables
+Data Provenance
+Excel is destructive
+Make changes =changes data
+ R can keep original data
+If make mistakes can rerun the script
+
+Other Data Imports- Read(base)
+Write and read data csv
+Ways to view data
+Subseting and filtering
+More ways to view data
+Filter in View mode
+Functions vs Sub
+Functions return a value
+In R have return statement in parens
+Can be on multiple lines
+Make your own functions
+Pro advice
+Do 1 thing
+Verify it works (Check it in)
+Do the next thing
+Make it better
+

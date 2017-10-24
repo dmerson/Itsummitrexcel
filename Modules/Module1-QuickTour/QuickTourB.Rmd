@@ -1,0 +1,62 @@
+---
+title: "Quick Tour -Part Two"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Goals-Quick Tour (cont)
+- Using variables
+- What is shown in the environment tab
+- What are common types in R
+- How to create a function
+- Viewer
+- Help
+- Options
+
+
+# Variables
+A variable is a container where you can store some type of value, function, or data
+You can set them by variableName =“Value”
+Or variableName <- “Value”
+The second is more common in R
+Try to use second form as sometimes first form doesn’t work
+#Environment
+Type in console
+#List variables
+#Type
+This creates -> 
+
+Type and Run the following
+Vector victor
+The [1] means it is the first of a vector
+For vector think row in Excel
+This is a row of 3 items in 1 column
+#Types
+- Types defined what operations can be used on data in a variable
+- Numbers have operations like add, subtract,…
+- Dataframes have operations like filtering and sorting
+- Can use typeof command
+Time to explore
+Environment filled up
+Clear it out
+Let’s look at car package
+View(Davis)
+#Help
+Type 
+#Search Help
+#History
+You can use up-arrow on keyboard to get previous values 
+#Cheat Sheets
+
+Global Options
+Project Options
+Code Menu
+Comment in R is #
+Session and Working Directory
+getwd()
+

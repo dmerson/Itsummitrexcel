@@ -1,0 +1,50 @@
+---
+title: "Module 7 File Formats"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Module 7 Goals
+- Types of file formats used by R
+- R-Markdown
+- Publishing documents
+- Shiny apps
+- Tufte and tufte handbooks
+# R has many different formats
+We have been using R Script (Source)
+
+#R Notebook
+Combines Text and Code and results
+Use Markup language
+Easier version of HTML
+Cheat Sheet!
+
+Run chunk 1
+Many ways to Run
+Can preview document
+Many different formats
+Preview
+Publish
+Aft
+Publish Details
+You will probably need to setup account
+Published!
+You can republish updates.
+R Markdown
+Can output multiple formats
+Can make presentations
+Knitr makes the presentation
+Shiny are interactive html apps
+Interactive HTML and R
+Install tufte
+Can make handbooks based on style of Edward Tufte
+Create a Tufte Handout
+Tufte Book/Handout
+Tufte HTML
+R Documentation
+

@@ -1,6 +1,7 @@
 ---
 title: "R Notebook"
 output:
+  
   html_document: default
   html_notebook: default
 ---
@@ -44,11 +45,54 @@ The console is like DOS in Windows and Terminal in Mac or an SSH Shell.
 ```{r}
 print("Hello IT Summit")
 ```
-Try the following:
-- What happens if don't use the quotes?
-- What if you type "prin" and then hit the tab key?
-Notice the [1] next to your result. (We will talk about that later)
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+Let's create a new file.
+![Create a New R Script File](../../Images/Slide15.png)
+ 
+ This is the source view.
+Type "print("this is from a file"). Then click control (command for Mac) + Enter.
+![Create a New R Script File](../../Images/Slide16.png)
+You can also highlight the line and click the Run button as seen below.
+![Create a New R Script File](../../Images/Slide17a.png)
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+You can then rerun the same line by using (Control-Shift-P) or click the rerun button.
+![Run the same line again](../../Images/Slide17b.png)
+
+You can then change the line to read "There has been a change" and use (Control-Shift-P) and it will rerun the same line. This is a useful technique to use as you are tweaking code to get it exactly right. 
+```{r}
+print("There has been a change")
+```
+Go ahead and save the file and look at the Files tab on the right. 
+![Files tab](../../Images/Slide19.png)
+
+Click over to the package tab just to the right of the file tab.
+![Package Tab](../../Images/Slide20.png)
+
+# What is a package?
+“Packages are collections of R functions, data, and compiled code in a well-defined format. The directory where packages are stored is called the library. ”-Quick R Web Page (https://www.statmethods.net/interface/packages.html)
+
+- Excel -> R Function =same idea
+- Data   -> values in a defined format
+- Compiled code-> just means R can run it
+
+#There are many ways to load a package.
+- You can use the Install on the package tab.
+- You can use the library command.
+```{r}
+library(ggplot2)
+```
+You can also use "lib.loc" to specify the path to the R version you can currently using.
+
+This can useful when you run packages on the University HPC. 
+
+#There are many ways to install a package.
+You can click the install package icon in the Packages tab.
+![Install a package from tab](../../Images/Slide24a.png)
+
+You can download a package from the web and install from a local zip file.
+![Install a package from tab](../../Images/Slide23b.png)
+
+Someone hasn't told R Studio that red is the color of an error. 
+![Red is ok here...](../../Images/Slide23c.png)
+Look through the Packages tab and try installing some packages.
+

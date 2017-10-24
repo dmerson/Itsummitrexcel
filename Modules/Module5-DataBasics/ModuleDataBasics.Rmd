@@ -1,0 +1,77 @@
+---
+title: "Module 5"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Module 5 Goals
+- What is dplr?
+- What is dplyr a good data solution?
+- What are single table functions in dplyr?
+- What are aggregate functions in dplyr?
+- What are the different joins?
+- What is dfsql?
+
+#dplyr
+Package to manipulate data similar in consistent way
+
+Table is tibble
+
+After transformation is still tibble
+
+Other packages
+Matrix ->operation >Vector
+Consistency allows tricks
+These are the same
+Assumes results is first parameter to next function
+flights
+What items are incorrect type?
+What is a type?
+How about year, month, and day?
+What are pros and cons?
+How about carrier, origin, and dest?
+What are pros and cons?
+Converting type for data
+dplyr operations on one table
+Group operations
+Combing columns
+Getting data to join
+https://data.world/ian/united-states-university-rankings/workspace/file?filename=TICAS+Percentage+of+2015+Graduates+with+Debt+and+Average+Debt+of+those+with+Loans%2C+by+State.xlsx
+Joining tables
+inner_join
+left_join
+right_join
+full_join
+Think about it first
+How many records on inner join vs. full join
+Inner join
+50 records
+Left join
+50 records
+Right join
+51 Records
+Full Join 
+51 records
+Seamless inner join
+If name is the same will auto connect
+
+sqldf
+Can translate to sql 
+Allows for multiple table join
+SQL Keyword
+Select
+Column names (case sensitive)
+From
+Tablename
+Join to another Tablenamem
+On
+Value on left and on right
+Use table.columnname
+Where
+Columnname =value
+

@@ -1,0 +1,41 @@
+---
+title: "Module Stats"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Module 3 Goals
+Common datasets in R
+Aggregate Functions
+Common statistical functions
+How to use Apply and Lapply
+How to do linear regression
+Excel has Analysis add-on
+Let’s start with common datasets::
+cars
+summary
+str
+Using an aggregate function
+Common stat functions
+Mode is not present
+But easy to create	
+Max and Min and Range
+Variance, Standard Deviation, and Correlation
+Diff function
+Sampling
+T-test
+Rank-Column, Apply and Lapply
+table
+Linear Regression
+Multivariate Linear Regression
+Other multiple regressions
+Dummy Variables
+Prediction
+Stats Cheat Sheet
+https://cran.r-project.org/doc/contrib/Short-refcard.pdf
+

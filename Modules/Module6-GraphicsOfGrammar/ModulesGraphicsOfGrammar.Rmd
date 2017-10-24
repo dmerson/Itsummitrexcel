@@ -1,0 +1,52 @@
+---
+title: "Module 6 Grammar of Graphics"
+author: "don-E Merson"
+date: "October 23, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Module 6 Goals
+- What is the Grammar of Graphics in ggplot?
+- What is the central metaphor?
+- Why are ggplot graphics more difficult to create at times?
+- What is a fast way to create ggplot graphics?
+- What is a facet?
+
+# What is Grammar of Graphics?
+Different components to graphics
+Data and aesthetic mappings
+Geometric objects
+Scales
+Facet specifications
+Statistical transformations
+Coordinate system
+Graphics are built upon layers
+Data and mapping
+Statistical transformation
+Example Time
+ggplot ->create new graphic object
++ layer( …) -> add a layer
+The data is diamonds dataset
+Map carat to horizontal 
+Map price to vertical
+geom -> display as points in the given position
+These are continuous points
+Use a Cartesian coordinate system
+Another way to write it
+The result
+Geometric objects
+qplot
+qplot facets
+What are examples of facets?
+Need to be categorical variables
+How large should they be?
+Examples in University data
+qplot -ERROR
+Box and jitter
+
+Cheat Sheet
+
