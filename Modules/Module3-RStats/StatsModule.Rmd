@@ -9,24 +9,93 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Module 3 Goals
-Common datasets in R
-Aggregate Functions
-Common statistical functions
-How to use Apply and Lapply
-How to do linear regression
-Excel has Analysis add-on
-Let’s start with common datasets::
-cars
-summary
-str
-Using an aggregate function
-Common stat functions
-Mode is not present
-But easy to create	
-Max and Min and Range
-Variance, Standard Deviation, and Correlation
-Diff function
+#Module 3 Goals
+- Common datasets in R
+- Aggregate Functions
+- Common statistical functions
+- How to use Apply and Lapply
+- How to do linear regression
+#Excel has Analysis add-on
+![ ](../../Images/Slide70a.png)
+![ ](../../Images/Slide70b.png)
+![ ](../../Images/Slide70c.png)
+#Let’s start with common datasets::
+![ Common Datasets](../../Images/Slide71.png)
+#cars
+- summary
+- str
+```{r}
+summary(cars)
+```
+```{r}
+str(cars)
+```
+
+# Using an aggregate function
+
+```{r}
+sum(cars)
+```
+```{r}
+mean(cars)
+```
+```{r}
+is(cars)
+```
+```{r}
+typeof(cars)
+```
+```{r}
+mean(cars$speed)
+```
+```{r}
+mean(cars$dist)
+```
+```{r}
+apply(cars, 2, mean)
+```
+```{r}
+apply(cars,1,mean)
+```
+
+#Common stat functions
+- Mode is not present
+- But easy to create	
+
+```{r}
+getmode <- function(v) {
+  uniqv <- unique(v)
+  uniqv[which.max(tabulate(match(v, uniqv)))]
+}
+apply(cars, 2, getmode)
+```
+
+#Max and Min and Range
+```{r}
+max(cars)
+```
+```{r}
+apply(cars,2,max)
+
+```
+
+```{r}
+range(cars)
+```
+```{r}
+apply(cars,2,range)
+```
+
+```{r}
+apply(cars,2,cumsum)
+```
+
+
+#Variance, Standard Deviation, and Correlation
+
+
+#Diff function
+
 Sampling
 T-test
 Rank-Column, Apply and Lapply
