@@ -92,19 +92,126 @@ apply(cars,2,cumsum)
 
 
 #Variance, Standard Deviation, and Correlation
+```{r}
+var(cars)
+```
+```{r}
+cor(cars)
+```
+```{r}
+apply(cars,2,sd)
+```
+```{r}
+library(datasets)
+
+#Load data "mtcars":
+data(mtcars)
+#str(mtcars)
+cor(mtcars)
+
+```
 
 
 #Diff function
+```{r}
+apply(cars,2,diff)
+```
 
-Sampling
-T-test
-Rank-Column, Apply and Lapply
-table
-Linear Regression
-Multivariate Linear Regression
-Other multiple regressions
-Dummy Variables
-Prediction
-Stats Cheat Sheet
+#Sampling
+
+```{r}
+sample(cars$speed,size = 10)
+```
+```{r}
+apply(cars, 2, sample,10)
+```
+
+#T-test
+```{r}
+
+library(dplyr)
+sample1 <- apply(cars, 2, sample, 10)
+sample2 <- apply(cars, 2 , sample, 10)
+t.test(sample1, sample2)
+```
+```{r}
+s1 <- sample(cars$speed, 2,   25)
+s2 <- sample(cars$dist, 2,   25)
+t.test(s1, s2)
+```
+
+#Rank-Column, Apply and Lapply
+```{r}
+rank(cars$speed)
+```
+```{r}
+cars$speed
+```
+```{r}
+apply(cars,2,rank)
+```
+```{r}
+lapply(cars,rank)
+```
+```{r}
+car_rank_list <- lapply(cars,rank)
+car_rank_list$speed
+```
+
+#table
+```{r}
+apply(cars,2,table)
+```
+
+#Linear Regression
+```{r}
+lm(mtcars$mpg ~ mtcars$cyl)
+```
+```{r}
+summary(lm(mtcars$mpg ~ mtcars$cyl))
+```
+```{r}
+lm(mpg ~ cyl, data=mtcars)
+```
+
+#Multivariate Linear Regression
+```{r}
+
+```
+
+#Other multiple regressions
+```{r}
+summary(lm( mpg ~ ., mtcars))
+```
+```{r}
+summary(lm( mpg ~ cyl + hp, mtcars))
+```
+```{r}
+summary(lm( mpg ~ cyl + I(hp^2), mtcars))
+
+```
+
+#Dummy Variables
+```{r}
+mtcars$cyl
+```
+```{r}
+mtcars$cyl > 4
+```
+```{r}
+mtcars["dummyvariable"]=mtcars$cyl > 4
+summary(lm( mpg ~ ., mtcars))
+```
+
+#Prediction
+```{r}
+model.1 <- lm( mpg ~ ., mtcars)
+predict(model.1,mtcars[1,])
+```
+```{r}
+model.1$residuals[1]
+```
+
+#Stats Cheat Sheet
 https://cran.r-project.org/doc/contrib/Short-refcard.pdf
 
