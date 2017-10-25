@@ -1,0 +1,53 @@
+ApplicationFieldTypeId,FieldType,SubType,QuestionType
+1,Document,Generic-Legacy Document,appType
+2,TextArea,Biography,appType
+3,TextArea,Essay,appType
+4,TextArea,Personal Statement,appType
+5,Document,Recommendation Letter,appType
+6,Document,Essay,appType
+7,Document,Resume,appType
+8,Document,Application,appType
+9,Document,Curriculum Vitae,appType
+10,Document,Upload Document,appType
+11,Document,Financial,appType
+12,Document,Transcript,appType
+14,Document,Employment Info,appType
+15,Document,Biography,appType
+16,Document,Photo,appType
+17,Document,Writing Sample,appType
+18,CRL,Certified Recommendation Letter,appType
+19,Text,Short Answer,appType
+20,TextArea,Long Answer,appType
+21,Confirm,Confirmation Box,appType
+22,CheckboxList,Checkbox List,appType
+23,RadioButtonList,Radio button list,appType
+24,DropdownList,Dropdown,appType
+25,Matrix,Matrix,appType
+26,CustomForm,All,appType
+27,Legal CRL,Generic-CRL,appType
+28,Select,Dropdown,appType
+29,Link,Link,appType
+30,Document,Image,appType
+31,Document,Budget,appType
+32,TextArea,Awards,appType
+33,Document,Other,appType
+34,CRL,Certified Recommendation Letter(CRL),appType
+35,Unshown,Custom Form,appType
+36,Document,Document,appType
+37,Document,Membership(s),appType
+38,Document,Personal Statement,appType
+39,Document,Other,appType
+40,Document,Curriculum Vitae,appType
+41,Label,Subheading,appType
+42,Label,Subheading with Paragraph,appType
+43,Label,Paragraph,appType
+44,Label,Space,appType
+1,Text,Text,attType
+2,Integer,Integer,attType
+3,"Decimal(11,2)","Decimal(11,2)",attType
+4,DropDown,DropDown,attType
+5,List,List,attType
+6,Yes/No,Yes/No,attType
+7,Attachment,Attachment,attType
+8,DateTime,DateTime,attType
+9,FastFind,FastFind,attType

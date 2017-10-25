@@ -47,6 +47,11 @@ Clear it out
 Let’s look at car package
 View(Davis)
 #Help
+```{r}
+help("cars")
+
+```
+
 Type 
 #Search Help
 #History
@@ -57,6 +62,12 @@ Global Options
 Project Options
 Code Menu
 Comment in R is #
-Session and Working Directory
+#Session and Working Directory
+```{r}
+getwd()
+#setwd("C:/Repps/Itsummitrexcel/")
+
+```
+
 getwd()
 
