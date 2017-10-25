@@ -17,34 +17,61 @@ knitr::opts_chunk$set(echo = TRUE)
 - Tufte and tufte handbooks
 # R has many different formats
 We have been using R Script (Source)
+![Types of files](../../Images/Slide144.png)
 
 #R Notebook
-Combines Text and Code and results
-Use Markup language
-Easier version of HTML
-Cheat Sheet!
+- Combines Text and Code and results
+- Use Markup language
+- Easier version of HTML
+- Cheat Sheet(s)!
+![Types of files](../../Images/Slide146.png)
+#Run chunk 1
+![Types of files](../../Images/Slide147.png)
+#Many ways to Run
+![Types of files](../../Images/Slide148.png)
+#Can preview document
+![Preview Options](../../Images/Slide149.png)
+ 
+#Preview
+![Preview of Notebook](../../Images/Slide150.png)
+#Publish
+![Screens for publish](../../Images/Slide151.png)
 
-Run chunk 1
-Many ways to Run
-Can preview document
-Many different formats
-Preview
-Publish
-Aft
-Publish Details
+#Publish Details
+![Page to fill out web details](../../Images/Slide152.png)
+
 You will probably need to setup account
-Published!
-You can republish updates.
-R Markdown
-Can output multiple formats
-Can make presentations
-Knitr makes the presentation
-Shiny are interactive html apps
-Interactive HTML and R
-Install tufte
-Can make handbooks based on style of Edward Tufte
-Create a Tufte Handout
-Tufte Book/Handout
-Tufte HTML
-R Documentation
+
+#Published!
+![Published File](../../Images/Slide153.png)
+
+#You can republish updates.
+![Republish File](../../Images/Slide154.png)
+
+#Can output multiple formats
+![Published File](../../Images/Slide154.png)
+#R Markdown
+![Published File](../../Images/Slide155.png)
+#Can make presentations
+![Published File](../../Images/Slide156.png)
+
+#Knitr makes the presentation
+![Published File](../../Images/Slide158.png)
+#Shiny are interactive html apps
+![Published File](../../Images/Slide159.png)
+#Interactive HTML and R
+![Published File](../../Images/Slide160.png)
+#Install tufte
+![Published File](../../Images/Slide161.png)
+
+#Can make handbooks based on style of Edward Tufte
+![Published File](../../Images/Slide162.png)
+#Create a Tufte Handout
+![Published File](../../Images/Slide162.png)
+#Tufte Book/Handout
+![Published File](../../Images/Slide163.png)
+#Tufte HTML
+![Published File](../../Images/Slide164.png)
+#R Documentation
+![Published File](../../Images/Slide165.png)
 
