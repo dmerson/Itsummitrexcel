@@ -1,6 +1,8 @@
 ---
 title: "R Notebook"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 
@@ -42,7 +44,7 @@ https://arizona.box.com/s/m0shoa7nyapa8fhqfsdbq8262ueqtqm3
 #How this class will work
 This based on learning techniques from https://www.coursera.org/learn/learning-how-to-learn
 
-![Coursera](../Images/CourseraCourse.png)
+![Coursera](Images/CourseraCourse.png)
 
 #How modules work
 
