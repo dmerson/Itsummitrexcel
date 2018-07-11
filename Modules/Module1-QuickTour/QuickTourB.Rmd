@@ -30,6 +30,10 @@ Type in console
 #List variables
 #Type
 This creates -> 
+```{r}
+hello ="test"
+
+```
 
 Type and Run the following
 Vector victor
